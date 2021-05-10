@@ -9,7 +9,7 @@
 ##
 
 Application: tbpredict.py  
-To run: $python tbpredict.py 'path-to-file'
+To run: $python tbpredict.py 'path-to-file'  
 Requirements: tensorflow, pillow, numpy  
 Path can be a system path or a web url
  
