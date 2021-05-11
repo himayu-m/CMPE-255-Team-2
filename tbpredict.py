@@ -56,12 +56,8 @@ y4 = model4.predict(x) > 0.5
 y4 = y4.astype(int)
 y4 = y4[0][0]
 
-##print(y1)
-##print(y2)
-##print(y3)
-##print(y4)
 
-w = [0.28,0.28,0.18,0.26] 
+w = [0.3,0.3,0.2,0.2] 
 final = y1*w[0] + y2*w[1] + y3*w[2] + y4*w[3] 
 
 pred = 0
@@ -74,6 +70,3 @@ if (pred==0):
     print("Normal")
 else:
     print("Tuberculosis")
-
-
-
